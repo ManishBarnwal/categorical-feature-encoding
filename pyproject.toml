@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "categorical-feature-encoding"
+version = "0.1.0"
+description = ""
+authors = ["ManishBarnwal <manishbarnwal.iit@gmail.com>"]
+license = "Apache licence 2.0"
+readme = "README.md"
+packages = [{include = "categorical_feature_encoding"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.23.1"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+torch = "^2.0.1"
+torchmetrics = "^0.11.4"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+tqdm = "^4.65.0"
+mlflow = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
